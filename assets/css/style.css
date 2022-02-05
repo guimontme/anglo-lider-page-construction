@@ -30,9 +30,15 @@ html {
     justify-content: space-around;
     flex-direction: column;
     align-content: center;
+    margin: 20px !important;
+}
+
+.main h1 {
+    padding-top: 20px;
 }
 
 .main h1 img {
+    margin-top: 20px;
     max-width: 100%;
 }
 
@@ -75,4 +81,5 @@ html {
     justify-content: space-between;
     max-width: 160px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
