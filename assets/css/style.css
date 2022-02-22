@@ -48,19 +48,24 @@ html {
     font-weight: 700 !important;
     border-radius: 8px;
     padding: 10px 20px;
-    background-color: #F22727 !important;
+    background-color: #1755A2 !important;
+    border-color: #1755A2;
+    transform: scale(1);
+    transition: all 0.3s;
 }
 
 .btn-center:hover, 
 .btn-center:active {
-    background-color: #C02020 !important;
+    background-color: #08346b !important;
+    border-color: #08346b !important;
+    transform: scale(1.1);
 }
 
 .main h3 {
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-    color: #F22727;
+    color: #1755A2;
     margin-top: 50px;
 }
 
