@@ -44,12 +44,16 @@ html {
 }
 
 .btn-center {
-  font-size: 20px;
-  font-weight: 700 !important;
+  padding: 10px 20px;
   border-radius: 8px;
-  padding: 20px 40px;
+  font-size: 16px;
   transform: scale(1);
   transition: all 0.3s;
+}
+.btn-center.btn-lg {
+  font-size: 24px;
+  font-weight: 700 !important;
+  padding: 20px 40px;
 }
 .btn-center.btn-primary {
   background-color: #1755A2 !important;
