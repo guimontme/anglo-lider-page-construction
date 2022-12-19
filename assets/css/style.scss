@@ -1,0 +1,105 @@
+body, *{
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#body-construcao {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/bg-construcao.jpg') !important;
+    background-position: center center !important;
+    background-attachment: fixed !important;
+    background-size: cover !important; 
+    padding: 36px;
+    backdrop-filter: blur(5px);
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    margin: 20px !important;
+}
+
+.main h1 {
+    padding-top: 20px;
+}
+
+.main h1 img {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+
+.btn-center {
+    font-size: 20px;
+    font-weight: 700 !important;
+    border-radius: 8px;
+    padding: 20px 40px;
+
+    transform: scale(1);
+    transition: all 0.3s;
+
+    &.btn-primary {
+        background-color: #1755A2 !important;
+        border-color: #1755A2;
+        &:hover, 
+        &:active {
+            background-color: #08346b !important;
+            border-color: #08346b !important;
+            transform: scale(1.2);
+        }
+    }
+    &.btn-danger {
+        background-color: #dc3545 !important;
+        border-color: #dc3545;
+        &:hover, 
+        &:active {
+            background-color: #960f1c !important;
+            border-color: #960f1c !important;
+            transform: scale(1.2);
+        }
+    }
+}    
+
+
+
+.main h3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1755A2;
+    margin-top: 50px;
+}
+
+.main h3 strong{
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.text-redes {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    max-width: 160px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}

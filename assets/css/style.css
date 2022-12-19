@@ -1,90 +1,99 @@
-body, *{
-    font-family: 'Poppins', sans-serif;
+body, * {
+  font-family: "Poppins", sans-serif;
 }
 
 html {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 #body-construcao {
-    width: 100%;
-    height: 100vh;
-    background-image: url('../img/bg-construcao.jpg') !important;
-    background-position: center center !important;
-    background-attachment: fixed !important;
-    background-size: cover !important; 
-    padding: 36px;
-    backdrop-filter: blur(5px);
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/bg-construcao.jpg") !important;
+  background-position: center center !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  padding: 36px;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
 }
 
 .main {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    align-content: center;
-    margin: 20px !important;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  align-content: center;
+  margin: 20px !important;
 }
 
 .main h1 {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .main h1 img {
-    margin-top: 20px;
-    max-width: 100%;
+  margin-top: 20px;
+  max-width: 100%;
 }
-
 
 .btn-center {
-    font-size: 16px;
-    font-weight: 700 !important;
-    border-radius: 8px;
-    padding: 10px 20px;
-    background-color: #1755A2 !important;
-    border-color: #1755A2;
-    transform: scale(1);
-    transition: all 0.3s;
+  font-size: 20px;
+  font-weight: 700 !important;
+  border-radius: 8px;
+  padding: 20px 40px;
+  transform: scale(1);
+  transition: all 0.3s;
 }
-
-.btn-center:hover, 
-.btn-center:active {
-    background-color: #08346b !important;
-    border-color: #08346b !important;
-    transform: scale(1.1);
+.btn-center.btn-primary {
+  background-color: #1755A2 !important;
+  border-color: #1755A2;
+}
+.btn-center.btn-primary:hover, .btn-center.btn-primary:active {
+  background-color: #08346b !important;
+  border-color: #08346b !important;
+  transform: scale(1.2);
+}
+.btn-center.btn-danger {
+  background-color: #dc3545 !important;
+  border-color: #dc3545;
+}
+.btn-center.btn-danger:hover, .btn-center.btn-danger:active {
+  background-color: #960f1c !important;
+  border-color: #960f1c !important;
+  transform: scale(1.2);
 }
 
 .main h3 {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    color: #1755A2;
-    margin-top: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1755A2;
+  margin-top: 50px;
 }
 
-.main h3 strong{
-    font-weight: 700;
-    font-size: 19px;
+.main h3 strong {
+  font-weight: 700;
+  font-size: 19px;
 }
 
 .text-redes {
-    margin-top: 30px;
-    margin-bottom: 5px;
-    font-weight: 400;
-    font-size: 12px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 12px;
 }
 
 .redes {
-    display: flex;
-    justify-content: space-between;
-    max-width: 160px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
+  display: flex;
+  justify-content: space-between;
+  max-width: 160px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
